@@ -67,7 +67,7 @@ public class GithubLogin extends AppCompatActivity {
 
 
 
-
+/*
 
 
 
@@ -76,9 +76,7 @@ public class GithubLogin extends AppCompatActivity {
         private String mPassword;
         private String mOtpCode;
 
-        /**
-         * Instantiates a new load repository list task.
-         */
+
         public LoginTask(String userName, String password) {
             super(GithubLogin.this, R.string.please_wait, R.string.authenticating);
             mUserName = userName;
@@ -182,7 +180,7 @@ public class GithubLogin extends AppCompatActivity {
         }
     }
 
-
+*/
 
 
 
