@@ -58,7 +58,7 @@ public class GithubLogin extends AppCompatActivity {
                 password=editTextPassword.getText().toString();
                 GithubReposClient client = new UserReposClient(userid,
                         "xamarin/xamarin-forms-samples/blob/master");
-                AsyncTaskCompat.executeParallel(new LoginTask(username, password));
+             // TODO   AsyncTaskCompat.executeParallel(new LoginTask(username, password));
                 // new AsyncLogin(getApplicationContext()).execute(userid, password);
             }
         });
